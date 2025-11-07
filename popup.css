@@ -1,60 +1,202 @@
-/*popup.css*/
-/*Auth: Addict*/
+/* popup.css */ /*Rewritten in normal css format for easier customisation*/
+/* Auth: Addict */
 
-
-:root{
-  --bg:#f7f8fb;
-  --card:#ffffff;
-  --accent:#2b8cff;
-  --muted:#65737e;
-  --danger:#e04848;
+/* ---------- Root Variables ---------- */
+:root {
+  --bg: #f7f8fb;
+  --card: #ffffff;
+  --accent: #2b8cff;
+  --muted: #65737e;
+  --danger: #e04848;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
-*{box-sizing:border-box}
-    html,body{margin:0;padding:0;width:360px;height:600px;background:var(--bg);color:#0b1116}
-    .container{padding:12px;display:flex;flex-direction:column;gap:10px}
-    header{display:flex;align-items:center;gap:10px}
-    .logo{width:34px;height:34px;border-radius:6px}
-    h1{font-size:18px;margin:0}
-    .add, .summary, .list{background:var(--card);padding:10px;border-radius:10px;box-shadow:0 6px 18px rgba(11,17,22,0.04)}
-    .add h2, .list h2{font-size:13px;margin:0 0 8px 0;color:var(--muted)}
-    .row{display:flex;gap:8px;margin-bottom:8px}
-    input[type="number"], input[type="text"], input[type="date"], select{
-    flex:1;padding:8px;border-radius:8px;border:1px solid #e3e7ee;background:#fff;font-size:13px
+/* ---------- Global ---------- */
+* {
+  box-sizing: border-box;
 }
-button{background:var(--accent);color:#fff;border:none;padding:8px 10px;border-radius:8px;cursor:pointer;font-weight:600}
 
-button:active{transform:translateY(1px)}
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 360px;
+  height: 600px;
+  background: var(--bg);
+  color: #0b1116;
+}
 
-.summary-row{display:flex;justify-content:space-between;gap:10px}
+/* ---------- Layout ---------- */
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+}
 
-.label{font-size:11px;color:var(--muted)}
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 
-.big{font-weight:700;font-size:16px}
+h1 {
+  font-size: 18px;
+  margin: 0;
+}
 
-.controls{display:flex;gap:8px;align-items:center;margin-top:10px}
+/* ---------- Sections ---------- */
+.add,
+.summary,
+.list {
+  background: var(--card);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(11, 17, 22, 0.04);
+}
 
-#export-btn{background:#0b6bff;padding:7px 9px;font-size:13px}
+.add h2,
+.list h2 {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+  color: var(--muted);
+}
 
-.list ul{list-style:none;padding:0;margin:0;max-height:220px;overflow:auto}
+/* ---------- Forms ---------- */
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
 
-.list li{display:flex;justify-content:space-between;padding:8px;border-radius:8px;border:1px solid #f0f3f6;margin-bottom:8px;align-items:center}
+input[type="number"],
+input[type="text"],
+input[type="date"],
+select {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #e3e7ee;
+  background: #fff;
+  font-size: 13px;
+}
 
-.item-left{display:flex;flex-direction:column}
+button {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
 
-.item-top{display:flex;gap:8px;align-items:center}
+button:active {
+  transform: translateY(1px);
+}
 
-.cat{font-size:12px;color:var(--muted);padding:4px 8px;border-radius:999px;border:1px solid #f0f3f6}
+/* ---------- Summary ---------- */
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
 
-.amount{font-weight:700}
+.label {
+  font-size: 11px;
+  color: var(--muted);
+}
 
-.desc{font-size:12px;color:var(--muted)}
+.big {
+  font-weight: 700;
+  font-size: 16px;
+}
 
-.date{font-size:12px;color:var(--muted)}
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
 
-.delete-btn{background:transparent;color:var(--danger);border:none;cursor:pointer;font-weight:700;padding:4px}
+#export-btn {
+  background: #0b6bff;
+  padding: 7px 9px;
+  font-size: 13px;
+}
 
-.empty{color:var(--muted);text-align:center;padding:8px}
+/* ---------- Expense List ---------- */
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 220px;
+  overflow: auto;
+}
 
-footer{font-size:11px;color:var(--muted);text-align:center;padding-top:6px}
+.list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #f0f3f6;
+  border-radius: 8px;
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cat {
+  font-size: 12px;
+  color: var(--muted);
+  padding: 4px 8px;
+  border: 1px solid #f0f3f6;
+  border-radius: 999px;
+}
+
+.amount {
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.date {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.delete-btn {
+  background: transparent;
+  color: var(--danger);
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 4px;
+}
+
+/* ---------- Empty State ---------- */
+.empty {
+  color: var(--muted);
+  text-align: center;
+  padding: 8px;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  font-size: 11px;
+  color: var(--muted);
+  text-align: center;
+  padding-top: 6px;
+}
