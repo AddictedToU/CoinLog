@@ -1,0 +1,60 @@
+/*popup.css*/
+/*Auth: Addict*/
+
+
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#2b8cff;
+  --muted:#65737e;
+  --danger:#e04848;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+*{box-sizing:border-box}
+    html,body{margin:0;padding:0;width:360px;height:600px;background:var(--bg);color:#0b1116}
+    .container{padding:12px;display:flex;flex-direction:column;gap:10px}
+    header{display:flex;align-items:center;gap:10px}
+    .logo{width:34px;height:34px;border-radius:6px}
+    h1{font-size:18px;margin:0}
+    .add, .summary, .list{background:var(--card);padding:10px;border-radius:10px;box-shadow:0 6px 18px rgba(11,17,22,0.04)}
+    .add h2, .list h2{font-size:13px;margin:0 0 8px 0;color:var(--muted)}
+    .row{display:flex;gap:8px;margin-bottom:8px}
+    input[type="number"], input[type="text"], input[type="date"], select{
+    flex:1;padding:8px;border-radius:8px;border:1px solid #e3e7ee;background:#fff;font-size:13px
+}
+button{background:var(--accent);color:#fff;border:none;padding:8px 10px;border-radius:8px;cursor:pointer;font-weight:600}
+
+button:active{transform:translateY(1px)}
+
+.summary-row{display:flex;justify-content:space-between;gap:10px}
+
+.label{font-size:11px;color:var(--muted)}
+
+.big{font-weight:700;font-size:16px}
+
+.controls{display:flex;gap:8px;align-items:center;margin-top:10px}
+
+#export-btn{background:#0b6bff;padding:7px 9px;font-size:13px}
+
+.list ul{list-style:none;padding:0;margin:0;max-height:220px;overflow:auto}
+
+.list li{display:flex;justify-content:space-between;padding:8px;border-radius:8px;border:1px solid #f0f3f6;margin-bottom:8px;align-items:center}
+
+.item-left{display:flex;flex-direction:column}
+
+.item-top{display:flex;gap:8px;align-items:center}
+
+.cat{font-size:12px;color:var(--muted);padding:4px 8px;border-radius:999px;border:1px solid #f0f3f6}
+
+.amount{font-weight:700}
+
+.desc{font-size:12px;color:var(--muted)}
+
+.date{font-size:12px;color:var(--muted)}
+
+.delete-btn{background:transparent;color:var(--danger);border:none;cursor:pointer;font-weight:700;padding:4px}
+
+.empty{color:var(--muted);text-align:center;padding:8px}
+
+footer{font-size:11px;color:var(--muted);text-align:center;padding-top:6px}
