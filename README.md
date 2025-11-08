@@ -1,6 +1,4 @@
-<p align="center">
-  <h1>COINLOG - SAVE TIME // SAVE MONEY</h1>
-</p>
+<h1 style="text-align:center;">COINLOG - SAVE TIME // SAVE MONEY</h1>
 
 CoinLog is a lightweight browser extension that helps you quickly log, view and export your daily expenses directly from your browser toolbar.
 
