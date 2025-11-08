@@ -2,10 +2,15 @@
 
 CoinLog is a lightweight browser extension that helps you quickly log, view and export your daily expenses directly from your browser toolbar.
 
-[![Firefox Add-Ons](https://img.shields.io/badge/Firefox_Add_Ons-20123A?logo=firefoxbrowser&logoColor=white)](#) [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=chromewebstore&logoColor=white)](#)
+
 ---
 
 ![COINGLOG Banner](/extras/COINLOGBANNER.gif)
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
+[![Firefox Add-Ons](https://img.shields.io/badge/Firefox_Add_Ons-20123A?logo=firefoxbrowser&logoColor=white)](#) [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=chromewebstore&logoColor=white)](#)
+<img alt="followers" title="Follow me on Github" src="https://img.shields.io/github/followers/AddictedToU?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
 
 ## Features
 
@@ -16,8 +21,6 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 - Persistent Storage: Uses browser storage (no account or cloud required)  
 - Delete & Export: Remove entries or export all data to CSV  
 - Cross-Browser: Works on Chrome, Edge, and Firefox (Manifest V3)
-
-![Feature Preview](/extras/Feature%20Preview.png)
 
 ---
 
