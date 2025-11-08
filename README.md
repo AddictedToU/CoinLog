@@ -8,7 +8,8 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 
 ## Features
 
-- Quick Add: Add expenses with amount, category, date, and description  
+- Quick Add: Add expenses with amount, category, date, and description <- <img alt="Static Badge" src="https://img.shields.io/badge/NEW">
+
 - Summaries: View today’s and last 7 days’ total spending  
 - Filters: Filter expenses by category  
 - Persistent Storage: Uses browser storage (no account or cloud required)  
@@ -16,6 +17,7 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 - Cross-Browser: Works on Chrome, Edge, and Firefox (Manifest V3)
 
 ![Feature Preview](/extras/Feature%20Preview.png)
+
 ---
 
 ## Installation (Local Testing)
