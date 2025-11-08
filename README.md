@@ -2,13 +2,14 @@
 
 CoinLog is a lightweight browser extension that helps you quickly log, view and export your daily expenses directly from your browser toolbar.
 
+[![Firefox Add-Ons](https://img.shields.io/badge/Firefox_Add_Ons-20123A?logo=firefoxbrowser&logoColor=white)](#) [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=chromewebstore&logoColor=white)](#)
 ---
 
 ![COINGLOG Banner](/extras/COINLOGBANNER.gif)
 
 ## Features
 
-- Quick Add: Add expenses with amount, category, date, and description <- <img alt="Static Badge" src="https://img.shields.io/badge/NEW">
+- Quick Add: Add expenses with amount, category, date, and description 
 
 - Summaries: View today’s and last 7 days’ total spending  
 - Filters: Filter expenses by category  
