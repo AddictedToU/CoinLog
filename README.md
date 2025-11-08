@@ -4,6 +4,8 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 
 ---
 
+![COINGLOG Banner](/extras/COINLOGBANNER.gif)
+
 ## Features
 
 - Quick Add: Add expenses with amount, category, date, and description  
