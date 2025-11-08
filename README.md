@@ -5,15 +5,20 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 
 ---
 
-![COINGLOG Banner](/extras/COINLOGBANNER.gif)
-[![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
-[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
-[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
-[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
-[![Firefox Add-Ons](https://img.shields.io/badge/Firefox_Add_Ons-20123A?logo=firefoxbrowser&logoColor=white)](#) [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=chromewebstore&logoColor=white)](#)
-[![Microsoft Edge](https://custom-icon-badges.demolab.com/badge/Microsoft%20Edge-2771D8?logo=edge-white&logoColor=white)](#)
+<p align="center">
+  <img src="extras/COINLOGBANNER.gif" alt="COINLOG Banner" />
+</p>
 
+<p align="center">
+  <a href="#"><img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white" alt="Visual Studio Code"></a>
+  <a href="#"><img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white" alt="HTML"></a>
+  <a href="#"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000" alt="JavaScript"></a>
+  <a href="#"><img src="https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff" alt="CSS"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white" alt="Markdown"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Firefox_Add_Ons-20123A?logo=firefoxbrowser&logoColor=white" alt="Firefox Add-Ons"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Chrome_Web_Store-4285F4?logo=chromewebstore&logoColor=white" alt="Chrome Web Store"></a>
+  <a href="#"><img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Edge-2771D8?logo=edge-white&logoColor=white" alt="Microsoft Edge"></a>
+</p>
 
 ## Features
 
