@@ -25,7 +25,7 @@ CoinLog is a lightweight browser extension that helps you quickly log, view and 
 
 - Summaries: View today’s and last 7 days’ total spending  
 - Filters: Filter expenses by category  
-- Persistent Storage: Uses browser storage (no account or cloud required)  
+- Persistent Storage: Uses browser storage (no account or cloud required.)  
 - Delete & Export: Remove entries or export all data to CSV  
 - Cross-Browser: Works on Chrome, Edge, and Firefox (Manifest V3)
 
